@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/jumo">
+
+    <ImageButton
+        android:id="@+id/qi_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/lengmo"/>
+
+    <Button
+        android:id="@+id/tuijian_btn"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/qi_btn"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/tuijian_btn"
+        android:text="站长推荐"
+        android:textSize="20sp"
+        android:textColor="#ff0000"/>
+
+</RelativeLayout>
